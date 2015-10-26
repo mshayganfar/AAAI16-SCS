@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sun Oct 25 21:37:16 EDT 2015
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=MahniShayganfar-AAAI16-SCS.tex
+outputFile=MahniShayganfar-AAAI16-SCS.pdf
+langSpell=en
+markDer=true
+srcDir=

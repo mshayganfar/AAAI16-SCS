@@ -1,21 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{Appleton, Christenson, and
-  Furlong}{2008}]{appleton:engagement}
-Appleton, J.~J.; Christenson, S.~L.; and Furlong, M.~J.
-\newblock 2008.
-\newblock {Student engagement with school: Critical conceptual and
-  methodological issues of the construct}.
-\newblock {\em Psychology in The Schools} 45(5):369--386.
-
-\bibitem[\protect\citeauthoryear{Cole and
-  Teboul}{2004}]{cole:reciprocity-collaboration}
-Cole, T., and Teboul, B.
-\newblock 2004.
-\newblock Non-zero-sum collaboration, reciprocity, and the preference for
-  similarity: Developing an adaptive model of close relational functioning.
-\newblock {\em Personal Relationships} 11(2):135--160.
-
 \bibitem[\protect\citeauthoryear{Cowie, Sussman, and
   Ben-Ze'ev}{2011}]{cowie:concepts-definitions}
 Cowie, R.; Sussman, N.; and Ben-Ze'ev, A.
@@ -30,21 +14,6 @@ Dancy, C.~L.
 \newblock 2013.
 \newblock {ACT-R}$\phi$: A cognitive architecture with physiology and affect.
 \newblock {\em Biologically Inspired Cognitive Architectures} 6:40--45.
-
-\bibitem[\protect\citeauthoryear{de Melo \bgroup et al\mbox.\egroup
-  }{2012}]{gratch:reverse-appraisal}
-de~Melo, C.~M.; Gratch, J.; Carnevale, P.; and Read, S.~J.
-\newblock 2012.
-\newblock Reverse appraisal: The importance of appraisals for the effect of
-  emotion displays on people's decision-making in social dilemma.
-\newblock In {\em Proceedings of the 34th Annual Meeting of the Cognitive
-  Science Society ({CogSci})}.
-
-\bibitem[\protect\citeauthoryear{Graham and Weiner}{1996}]{graham:motivation}
-Graham, S., and Weiner, B.
-\newblock 1996.
-\newblock {\em Theories and Principles of Motivation}.
-\newblock Prentice Hall.
 
 \bibitem[\protect\citeauthoryear{Gratch and
   Marsella}{2004}]{gratch:domain-independent}
@@ -62,25 +31,30 @@ Grosz, B.~J., and Sidner, C.~L.
   Intentions in Communication}. Cambridge, MA: MIT Press.
 \newblock  417--444.
 
+\bibitem[\protect\citeauthoryear{Hess and Thibault}{2009}]{hess:darwin-emotion}
+Hess, U., and Thibault, P.
+\newblock 2009.
+\newblock Darwin and emotion expression.
+\newblock {\em American Psychologist} 64(2):120--128.
+
 \bibitem[\protect\citeauthoryear{John Robert~Anderson}{1998}]{anderson:act-r}
 John Robert~Anderson, C.~L.
 \newblock 1998.
 \newblock {\em The Atomic Components of Thought}.
 \newblock Lawrence Erlbaum Associates.
 
+\bibitem[\protect\citeauthoryear{Kleef}{2009}]{kleef:emotion-regulate-social}
+Kleef, G. A.~V.
+\newblock 2009.
+\newblock How emotions regulate social life: The emotions as social information
+  {(EASI)} model.
+\newblock {\em Current Directions in Psychological Science} 18(3):184--188.
+
 \bibitem[\protect\citeauthoryear{Laird}{2012}]{laird:soar}
 Laird, J.
 \newblock 2012.
 \newblock {\em The Soar Cognitive Architecture}.
 \newblock MIT Press.
-
-\bibitem[\protect\citeauthoryear{Manso and
-  Moffat}{2011}]{manso:synchronization}
-Manso, M., and Moffat, J.
-\newblock 2011.
-\newblock Defining and measuring cognitive-entropy and cognitive
-  self-synchronization.
-\newblock In {\em ICCRTS}.
 
 \bibitem[\protect\citeauthoryear{Marinetti \bgroup et al\mbox.\egroup
   }{2011}]{parkinson:emotion-social-interaction}
@@ -97,6 +71,18 @@ Marinetti, C.; Moore, P.; Lucas, P.; and Parkinson, B.
 \newblock A computational unification of cognitive behavior and emotion.
 \newblock {\em Cognitive System Research} 10(1):48--69.
 
+\bibitem[\protect\citeauthoryear{Parkinson}{1996}]{parkinson:emotions-social}
+Parkinson, B.
+\newblock 1996.
+\newblock Emotions are social.
+\newblock {\em British Journal of Psychology} 87(4):663--683.
+
+\bibitem[\protect\citeauthoryear{Parkinson}{2005}]{parkinson:emotion-communication}
+Parkinson, B.
+\newblock 2005.
+\newblock Do facial movements express emotions or communicate motives?
+\newblock {\em Personality and Social Psychology Review} 9(4):278--311.
+
 \bibitem[\protect\citeauthoryear{Parkinson}{2009}]{parkinson:holds-emotion}
 Parkinson, B.
 \newblock 2009.
@@ -111,18 +97,18 @@ Scherer, K.~R., and Eligring, H.
   programs or dynamically driven by appraisal?
 \newblock {\em Emotion} 7(1):113--130.
 
-\bibitem[\protect\citeauthoryear{Schon}{1987}]{schon:reflection}
-Schon, D.~A.
-\newblock 1987.
-\newblock {\em Educating the Reflective Practitioner: Toward a New Design for
-  Teaching and Learning in the Professions}.
-\newblock Wiley.
-
 \bibitem[\protect\citeauthoryear{Sousa}{1990}]{sousa:rationality-emotion}
 Sousa, R.~D.
 \newblock 1990.
 \newblock {\em The Rationality of Emotion}.
 \newblock MIT Press.
+
+\bibitem[\protect\citeauthoryear{Tiedens and Leach}{2004}]{tiedens:social-life}
+Tiedens, L.~Z., and Leach, C.~W.
+\newblock 2004.
+\newblock {\em The Social Life of Emotions (Studies in Emotion and Social
+  Interaction)}.
+\newblock Cambridge University Press.
 
 \bibitem[\protect\citeauthoryear{Zhu and Thagard}{2002}]{zhu:emotion-action}
 Zhu, J., and Thagard, P.

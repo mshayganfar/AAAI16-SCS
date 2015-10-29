@@ -27,19 +27,18 @@ Worcester, Massachusetts, 01609\\
 \maketitle
 \begin{abstract}
 \begin{quote}
-We investigate the mutual influence of affective and collaboration processes in
-a cognitive theory to support the interaction between humans and robots or
-virtual agents. We will develop new algorithms for these processes, as well as a
-new overall computational model for implementing collaborative robots and
+The capability of functional coexistence has the key role in design of
+the symbiotic cognitive systems. To obtain this capability, a cognitive system
+requires to possess evaluative and communicative processes. Emotions and
+their underlying processes provide such functions in social and collaborative
+environments. We investigate the mutual influence of affective and collaboration
+processes in a cognitive theory to support the interaction between humans and
+robots or virtual agents. We develop new algorithms for these processes, as well
+as a new overall computational model for implementing collaborative robots and
 agents. We build primarily on the \textit{cognitive appraisal} theory of
-emotions \cite{gratch:domain-independent} and the \textit{SharedPlans} theory
-\cite{grosz:plans-discourse} of collaboration to investigate the structure,
-fundamental processes and functions of emotions in a collaboration context. As
-part of this work, we also address a deficiency in existing cognitive models by
-accounting for the influence of motivation on collaborative behaviors, such as
-overcoming an impasse. This motivation mechanism uses the results of cognitive
-appraisal to dynamically form new intentions related to the collaboration
-structure.
+emotions and the \textit{SharedPlans} theory of collaboration to investigate the
+structure, fundamental processes and functions of emotions in a collaboration
+context.
 \end{quote}
 \end{abstract}
 
@@ -83,16 +82,33 @@ diverse set of disciplines. As time passes, there is an increasing recognition
 of the importance of the social requirements, and how cognitive systems can
 include the influence of the others.
 
+\section{Social Functions of Emotions}
+
+Humans are able to communnicate their emotions in a social context. The social
+functions of emotions are the reason behind why humans try to communicate their
+emotions. Emotions describe interpersonal dynamics in a way that they can
+constitute individuals' relationships
+\cite{parkinson:emotions-social,tiedens:social-life}. One aspect of expressing
+and communicating emotion in a social context is to express one's social motives
+and intentions \cite{hess:darwin-emotion}. Another aspect of communicating
+emotions is to reveal the underlying mental states of an individual
+\cite{parkinson:emotion-communication}. In
+(\citeyear{kleef:emotion-regulate-social}) Van Kleef has discussed the idea of
+inferential processes with which individuals can infer information about others'
+feelings, relational orientations and behavioral intentions based on their
+emotional expressions. He also argues that emotional expressions can impact
+social interactions by eliciting others' affective responses.
+
 \section{Motivation}
 
 Functionnal coexistence is an important aspect of the symbiotic cognitive
 systems in social environments. Collaboration requires coexistence with
-the others and it also describes how a cognitive agent can function in such
-environment. Therefore, the ability of collaborating with humans in the same
-environment is crucial for cognitive agents. In fact, a cognitive agent's
-ability to understand the collaborative environment impact the effectiveness of a
-collaboration. Examples of cognitive capabilities that support the effectiveness
-of collaboration include: a) perceiving one's own internal states and b)
+the others and describes how a cognitive agent can function in such environment.
+Therefore, the ability of collaborating with humans in the same environment is
+crucial for cognitive agents. In fact, a cognitive agent's ability to understand
+the collaborative environment impact the effectiveness of a collaboration.
+Examples of cognitive capabilities that support the effectiveness of
+collaboration include: a) perceiving one's own internal states and b)
 communicating them, c) coordinating personal and group behaviors, d) identifying
 self and mutual interests, e) recognizing the accountability of private and
 shared goals, f) selecting appropriate actions with respect to events, and g)
@@ -118,8 +134,6 @@ and artificial intelligence. Our contribution, generally speaking, will be to
 synthesize prior work on motivation, appraisal and collaboration, and thus to
 provide a new theory which describes the prominent emotion-regulated goal-driven
 phenomena in a dyadic collaboration.
-
-\section{Social Functions of Emotions}
 
 \section{Affect and Collaboration}
 
@@ -164,38 +178,53 @@ about the interpretation and prediction of observable behaviors in a dyadic
 collaborative interaction. The theory focuses on the processes regulated by
 emotional states. The observable behaviors represent the outcome of reactive and
 deliberative processes related to the interpretation of the self's relationship
-to the collaborative environment. Affective Motivational Collaboration Theory
-aims to explain both rapid emotional reactions to events as well as slower, more
-deliberative responses. The reactive and deliberative processes are triggered by
-two types of events: \textit{external} events, such as the other's
-\textit{utterances} and \textit{primitive actions}, and \textit{internal}
-events, comprising changes in the self's mental states, such as belief formation
-and emotional changes. Affective Motivational Collaboration Theory explains how
-emotions regulate the underlying processes when these events occur during
-collaboration. This theory elucidates the role of motives as goal-driven
-emotion-regulated constructs with which an agent can form new intentions to cope
-with internal and external events.
+to the collaborative environment. 
 
-Affective Motivational Collaboration Theory explains the functions of emotions
-in a dyadic collaboration and show how affective mechanisms can coordinate
-social interactions by enabling one to anticipate other's emotions, beliefs and
-intentions. Our focus is on the mechanisms depicted as mental processes in
-Figure \ref{fig:cpm} along with the mental states. The \textit{Mental States}
-includes self's (robot's) beliefs, intentions, motives, goals and emotion
-instances as well as the anticipated Mental States of the other (human). The
-\textit{Collaboration} mechanism maintains constraints on actions, including
-task states and the ordering of tasks. The \textit{Collaboration} mechanism also
-provides processes to update and monitor the shared plan. The \textit{Appraisal}
-mechanism is responsible for evaluating changes in the self's Mental States, the
-anticipated Mental States of the other, and the state of the collaboration
-environment. The \textit{Coping} mechanism provides the self with different
-coping strategies associated with changes in the self's mental states with
-respect to the state of the collaboration. The \textit{Motivation} mechanism
-operates whenever the self a) requires a new motive to overcome an internal
-impasse in an ongoing task, or b) wants to provide an external motive to the
-other when the other faces a problem in a task. The \textit{Theory of Mind}
-mechanism is the mechanism that infers a model of the other's anticipated mental
-state. The self progressively updates this model during the collaboration.
+Affective Motivational Collaboration Theory aims to explain both rapid emotional
+reactions to events as well as slower, more deliberative responses. The reactive
+and deliberative processes are triggered by two types of events:
+\textit{external} events, such as the other's \textit{utterances} and
+\textit{primitive actions}, and \textit{internal} events, comprising changes in
+the self's mental states, such as belief formation and emotional changes.
+Affective Motivational Collaboration Theory explains how emotions regulate the
+underlying processes when these events occur during collaboration. This theory
+elucidates the role of motives as goal-driven emotion-regulated constructs with
+which an agent can form new intentions to cope with internal and external
+events. Affective Motivational Collaboration Theory explains the functions of
+emotions in a dyadic collaboration and show how affective mechanisms can
+coordinate social interactions by enabling one to anticipate other's emotions,
+beliefs and intentions.
+
+Our focus is on the mechanisms depicted as mental processes in Figure
+\ref{fig:cpm} along with the mental states. The \textit{Mental States} includes
+self's (robot's) beliefs, intentions, motives, goals and emotion instances as
+well as the anticipated Mental States of the other (human). \textit{Beliefs} are
+a crucial part of the Mental States. Beliefs can be generated based on whether
+they are shared or not between the collaborators. The SharedPlans
+\cite{grosz:plans-discourse} theory is the foundation of this view on beliefs in
+which for any given proposition the agent may have: a) private beliefs (the
+agent believes the human does not know these), b) the inferred beliefs of the
+human (the agent believes the human collaborator has these beliefs), and c)
+mutual beliefs (the agent believes both the self and the human have these same
+beliefs and both of them believe that). Beliefs also can be generated based on
+who or what they are about, i.e., beliefs can be about the self, the other, or
+they can be about the environment. \textit{Intentions} are mental constructs
+directed at future actions. They play an essential role in taking actions
+according to the collaboration plan, and behavior selection in the Coping
+mechanism. \textit{Motives} are mental constructs which can initiate, direct and
+maintain goal-directed behaviors. They are created by the emotion-regulated
+Motivation mechanism. Motives can cause the formation of a new intention for the
+agent according to: a) its own emotional states (how the agent feels about
+something), b) its own private goal (how an action helps the agent to make
+progress), c) the collaboration goal (how an action helps to achieve the shared
+goal), and d) other's anticipated beliefs (how an action helps the other).
+\textit{Goals} help the agent to create and update its collaboration plan
+according to the current private and shared goal content and structure. Goals
+direct the formation of intentions to take appropriate corresponding actions
+during collaboration. Goals also drive the Motivation mechanism to generate
+required motive(s) in uncertain or ambiguous situations, e.g., to minimize the
+risk of impasse or to reprioritize goals. \textit{Emotions} in Mental States are
+emotion instances that are elicited by the Appraisal mechanism.
 
 \begin{figure}[tbh]
   \centering
@@ -205,20 +234,81 @@ state. The self progressively updates this model during the collaboration.
   \label{fig:cpm}
 \end{figure}
 
-\section{Functions of Emotions}
+The \textit{Collaboration} mechanism maintains constraints on actions, including
+task states and the ordering of tasks. The Collaboration mechanism constructs a
+hierarchy of tasks and also manage and maintain the constraints and other
+details of the collaboration specified by the plan. These details include the
+\textit{inputs} and \textit{outputs} of individual tasks, the
+\textit{preconditions} specifying whether it is appropriate to perform a task,
+and the \textit{postconditions} specifying whether a just-completed task was
+successful (which can be used as an indication of an impasse or failure).
+Collaboration also keeps track of the focus of attention, which determines the
+salient objects, properties and relations at each point of the collaboration.
+Moreover, Collaboration mechanism has the ability to shift the focus of
+attention during the collaboration. The Collaboration mechanism also provides
+processes to update and monitor the shared plan.
+  
+\textit{Appraisal} is a subjective evaluation mechanism based on individual
+processes each of which computes the value of the appraisal variables used in
+our computational model. The Appraisal mechanism is responsible for evaluating
+changes in the self's Mental States, the anticipated Mental States of the other,
+and the state of the collaboration environment. The Collaboration mechanism
+needs the evaluative assistance of the Appraisal mechanism for various reasons.
+The course of a collaboration is based on a full or a partial plan which needs
+to be updated as time passes and collaborators achieve, fail at or abandon a
+task assigned to them. The failure of a task should not destroy the entire
+collaboration. Appraising the environment and the current events helps the agent
+to update the collaboration plan and avoid further critical failures during
+collaboration. Appraisal also helps the agent to have a better understanding of
+the human's behavior by making inferences based on appraisal variables.
+Furthermore, in order to collaborate successfully, a collaborator cannot simply
+use the plan and reach to the shared goal; there should be an adaptation
+mechanism not only for updating the plan but also the underlying Mental States.
+
+The \textit{Coping} mechanism is responsible for interpreting ongoing changes
+in the Mental States and adopting the appropriate behavior with respect to these
+changes. The Coping mechanism provides the self with different coping strategies
+associated with changes in the self's mental states with respect to the state of
+the collaboration.
+
+The \textit{Motivation} mechanism closely work with the Appraisal mechanism. The
+purpose of this component is to generate new motives. These motives are
+generated based on what the agent believes about the environment including self
+and the other collaborator and the corresponding appraisals. The agent uses
+these motives to achieve a private or shared goal according to new conditions,
+to interact better with a human who needs social interactions, or to evaluate
+the success of task performances. The Motivation mechanism operates whenever the
+self a) requires and intends to take a new action, b) requires a new motive to
+overcome an internal impasse in an ongoing task, or c) wants to provide an
+external motive to the other based on other's model when the other faces a
+problem in a task.
+
+The agent uses the \textit{Theory of Mind} mechanism to infer and attribute
+beliefs, intentions, motives and goals to its collaborator based on the user
+model it creates and maintains during the course of the collaboration. In
+other words, the Theory of Mind mechanism is the mechanism that infers a model
+of the other's anticipated mental state. The self progressively updates this
+model during the collaboration.
+
+\section{Conclusion}
+
+The capability of functional coexistence is crucial in symbiotic cognitive
+systems. The nature of coexistence requires the ability of working together in
+the same environment. To successfully work together symbiotic cognitive systems
+need to be able a) to communicate and understand social communication, and b) to
+collaborate and maintain a collaborative structure. Therefore, the integration
+of emotion-regulated processes, e.g., appraisal, and collaboration structure and
+its underlying processes can lead us to a more funcatinally capable symbiotic
+cognitive system.
 
 Emotions have a crucial role in communicating one's mental state, motivating
 one's actions, and evaluating and interpreting their internal states and the
 environment. Emotions generally speaking provide a set of intra- and
 interpersonal functions which regulate internal processes and the self's
-relationship to the other during the collaboration. An emotion instance, e.g.,
-\textit{anger}, occurring during collaboration, can lead to different emotion
-functions, e.g., \textit{Alarm Mechanism} and \textit{Action Selection}.
+relationship to the other during the collaboration.
 Emotions have meanings in a social context which can be interpreted by an
 observer. Emotion functions are important because they provide social
 characteristics that the self needs to manifest in its collaborative behavior. 
-
-\section{Collaborative Behaviors in Symbiotic Environments}
 
 Collaboration is a coordinated social activity in which participants work
 together to perform tasks achieving a shared goal. Collaborative behaviors
@@ -227,192 +317,13 @@ help an observor to distinguish between collaboration and other social or
 group activities. For instance, collaborators need to be able to synchronize
 themselves with their partner and collaborative environment with respect to the
 state of the shared goal. To generate collaborative behaviors one requires to
-include certain computational mechanisms. Affective Motivational Collaboration
-Theory provides affect-regulated goal-driven mechanisms (see Figure
-\ref{fig:cpm}) by which a robot will be able to show collaborative behaviors. In
-the followings, we breifly describe eight different social characteristics of
-collaboration and how they are related to emotion functions.
-
-\begin{itemize}
-  \item \textbf{Awareness}
-  \item \textbf{Motivation}
-  \item \textbf{Self-synchronization}
-  \item \textbf{Participation}
-  \item \textbf{Mediation}
-  \item \textbf{Reciprocity}
-  \item \textbf{Reflection}
-  \item \textbf{Engagement}
-\end{itemize}
-
-\subsection{Awareness} Awareness is the self's ability to manage and understand
-its own emotions and those of the other, and the ability to express emotions
-accordingly. Managing emotions refers to the self's capacity to regulate its
-internal emotions and to direct them towards constructive activities. Emotions,
-as a crucial evaluative substance of the cognition, can increase the
-accessibility and significance of discrepancies between Mental States, leading
-to higher awareness of one's sense of self and one's collaborator. In my theory,
-beliefs about the outcome of the appraisal and reverse appraisal
-\cite{gratch:reverse-appraisal} provide an internal and social understanding of
-the world. Ultimately, the self and social awareness helps our agent to become
-part of a collaboration process, while adopting and maintaining a shared goal.
-
-\subsection{Motivation} Motivation as a social characteristics of collaboration
-is goal-driven and concerned with self's actions and what determines those
-actions. There are several motivation theories describing various functional
-aspects of motivations. These theories can be categorized into two different
-groups, the \textit{self-regulatory} and the \textit{purposive} motivations
-\cite{graham:motivation}. As a regulatory process, motivation restores internal
-cognitive equilibrium of the self as well as self's social stance during
-collaboration. From a purposive perspective, the motivation process emphasizes
-the goal-directed nature of behaviors by anticipating the utility of self's
-individual actions or series of actions reaching to the private or the shared
-goal. In both self-regulatory and purposive perspectives, emotions serve the
-Motivation mechanism, offering their evaluative nature to assess the internal
-and external events. This process drives our agent to gain consensus in problem
-solving or development during collaboration.
-
-\subsection{Self-synchronization} Self-synchronization represents the temporal
-and spatial relationship of the self with the collaboration environment
-\cite{manso:synchronization}. Adaptation as a function of emotions (see Section
-\ref{emotion-functions}) play a crucial role in short and long-term behavior
-changes in our agent enabling self-synchronization. Furthermore, the sensory
-integration function of emotions can impact the synchronization procedure in
-the sensory level by filtering or blocking of the input data. For instance, the
-self can perceive the other's anger and consequently infers that the other will
-not totally pay attention to what the self says. The prominent role of emotions
-in the synchronization process during collaboration extends to their other
-functions in different levels of cognition including action selection, not only
-based on a plan but according to the self's emotional states; goal management,
-whenever a new goal or a sub-goal is required to be created or reprioritized;
-alarm mechanisms for informing the self by interrupting other cognitive
-processes; attentional focus, by changing the self's focus of attention between
-different existing saliencies in the collaboration environment; and strategic
-processing, by influencing the actual decision making processes of the self. As
-a result, our agent decides when things need to happen during the course of a
-collaboration.
-
-\subsection{Participation} It is suggested that the benefits of the
-collaboration arise from active participation in interaction and verbal
-communication with a partner who has a different perspective, either due to more
-knowledge, or a different viewpoint \cite{kruger:peer-collaboration}. Active
-participation in doing tasks and communicating during the collaboration is
-directly related to the evaluative factors of one's cognitive processes. These
-evaluative factors are intertwined with different aspects of performance
-assessment hinged on the core concept of the collaboration, the shared goal . In
-order to achieve the shared goal, the self employs the evaluative nature of the
-appraisal process to be able to assess and participate in the ongoing
-collaboration. Emotion instances provide appropriate, accountable and
-communicative signals (verbal and non-verbal behaviors) both for the self,
-through the manipulation of the Appraisal and Belief Formation mechanisms, and
-for the other, through the multi-modal emotional expressions which make the
-other socially aware of the self's internal states. Consequently, our agent
-participates in collaboration while expecting the other to participate to
-achieve the shared goal together.
-
-\subsection{Mediation} Collaborations can include disputes needed to be
-intervened and solved by the collaborators. Negotiation is the bargaining
-process between parties seeking to discover a common ground and reach an
-agreement to settle a matter of mutual concern or resolve a conflict.
-Collaborative negotiation is an interest-based, constructive negotiation (as
-oppose to competitive negotiation) in which the self and the other are
-seeking a fair and equitable agreement without having an always-conceding
-approach. During the collaborative negotiation the collaboration parties openly
-discuss their needs and try to create as much mutual value as they can.
-Therefore, the collaborators try to use and understand the feelings, deeper
-interests and motives of their collaboration partner as well as their own.
-Emotions, once again, become important for the self in assessing the
-other's offers and counter offers. Additionally, the self can
-communicate the result of this internal assessment through the expression of
-emotion instances. In the inverse of the same procedure, the reverse appraisal
-assists the self to perceive and interpret the other's emotional
-expressions and observable behaviors. Hence, our agent would be able to assess
-the negotiation events and to communicate its internal states during negotiation
-and therefore, find a middle ground according to the mutual interests and
-agreements.
-
-\subsection{Reciprocity} Reciprocity is an adaptation process by which
-individuals monitor their contributions in light of their partner's
-contributions and make adjustments accordingly
-\cite{cole:reciprocity-collaboration}. Reciprocity is fundamental for creating
-mutually beneficial and non-zero-sum outcomes through social exchange of
-resources and coordination of joint activities. In fact, the adaptations
-associated with coordination using mutual beliefs and the shared goal concepts
-create a different, yet another important aspect of the reciprocity in
-collaboration. It leads to punishment or avoidance of collaborators with
-detrimental actions and to reward in contrasting situations.
-  
-There are several underlying mechanisms helping the self to perform reciprocal
-behaviors \cite{cole:reciprocity-collaboration}. First, a tacit \textit{resource
-monitoring mechanism} is required for the self to monitor its own as well as the
-other's resources contributions over the course of the collaboration. This
-monitoring process essentially requires the existence of an assessment process
-on collaborators' behaviors. The Appraisal mechanism provides this required
-evaluative functionality. This notion of evaluation process helps the self to a)
-perceive other's affective responses, and b) communicate its own. Second, a
-\textit{reciprocal behavior failure detection mechanism} is needed to detect the
-other's failure in vital reciprocal situations (which can be met with the
-guidance of the Appraisal mechanism). Third, a \textit{resource adjustment
-mechanism} is crucial for a collaborative agent to adjust its own social
-exchange behavior and also to influence the other's reciprocal behavior. The
-self can apply the emotion instances, e.g., guilt and gratitude, as
-inducements to get the other to return favors. The same mechanism, e.g., anger
-and sadness, can be applied by the self to punish or avoid the other based on
-his behavior. As a result, our agent will share resources and thoughts, and will
-expect sharing in return through reciprocity.
-
-\subsection{Reflection} Reflection is an attempt to make the implicit, explicit
-in order to learn from experience. There are two different types of reflection
-\cite{schon:reflection}. The first, \textit{reflecting on action}, helps the
-self to think back on behaviors of the other occurring because of the
-self's last action. This process uses the Appraisal mechanism to evaluate the
-other's response, and serves the self by reshaping what the self does,
-by modification of the underlying beliefs and intentions. Additionally,
-reflection helps the self to learn the consequences of each action, using the
-content of its own Mental States, including beliefs about the other's
-Mental States. Consequently, the outcome of this evaluation enables the self
-to update its user model of the other. These processes represent the
-deliberative side of the emotion functions. The second type of reflection,
-\textit{reflecting in action}, helps the self when a familiar routine produces
-an unexpected result; an error stubbornly resists correction; or, the meaning of
-an event has changed because of changes in the self's evaluative and/or
-interpretive processes. All these changes produce pleasant or unpleasant results
-for the self leading to different emotion instances, e.g., surprise, during
-collaboration. The self can intentionally ignore the events signaling these
-emotions and not attempt to change its own focus of attention, or in contrast,
-can show a quick emotional reaction, for instance because of the occurrence of
-an unexpected event, in which the latter represents the reflexive function of
-emotions. Subsequently our agent can process the collaboration status and
-consider alternative actions at each point in time, when required.
-
-\subsection{Engagement} There are three different forms of engagement:
-\textit{behavioral, emotional} and \textit{cognitive} engagements
-\cite{appleton:engagement}. The \textit{behavioral engagement} is associated
-with self's sustained behavioral involvement by taking actions during
-collaboration. The self's behaviors that can be indicative of behavioral
-engagement include persistence in taking actions, maintaining the focus of
-attention during collaboration, asking questions from the other whenever
-it is required in the current state of the world, and contributing to achieving
-the shared goal. The \textit{emotional engagement} is associated with self's
-emotional reactions to its collaborator. These reactions are aimed at showing
-empathy to the other in different cases, for instance, the occurrence of
-the failure or disruption in one of the collaborators' tasks, e.g., anger or
-frustration. In general, the self can empathize with the other in the
-event of the appearance of any anticipated negative emotion. The emotional
-engagement can also help the self to evaluate the level of satisfaction based
-on the performance of the individual tasks from its own and the other's
-point of view. This evaluative process will help the Motivation mechanism to
-form the most appropriate intention to maximize the performance of the
-collaboration according to the shared plan. The \textit{cognitive engagement} is
-associated with whether the self is willing to get involved in solving problems
-occurred during the collaboration. The Appraisal and the Motivation mechanisms
-serve the self to evaluate the status of the collaboration and form new
-intentions for actions. The Intention Formation process helps the self to find
-the proper solution for an ongoing issue even if the action is a part of the
-other's task. Consequently, our agent will proactively engage in cases
-when an unexpected problem occurs during collaboration, rather than just waiting
-to see what the other's demand is.
-
-\section{Conclusion}
+include certain computational mechanisms. We are developing a new computational
+theory, called Affective Motivational Collaboration Theory, that combines
+emotion-based processes, such as appraisal and coping, with collaboration
+processes, such as planning, in a single unified framework. Affective
+Motivational Collaboration Theory provides emotion-regulated goal-driven
+mechanisms (see Figure \ref{fig:cpm}) by which a robot will be able to show
+collaborative behaviors.
 
 \bibliography{mshayganfar.bib}
 \bibliographystyle{aaai}

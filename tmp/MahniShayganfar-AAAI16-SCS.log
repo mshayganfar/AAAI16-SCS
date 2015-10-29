@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.5)  29 OCT 2015 11:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.5)  29 OCT 2015 13:09
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -181,7 +181,7 @@ File: figure/theory-general-croped.pdf Graphic file (type pdf)
 
 <use figure/theory-general-croped.pdf>
 Package pdftex.def Info: figure/theory-general-croped.pdf used on input line 23
-1.
+0.
 (pdftex.def)             Requested size: 239.79135pt x 163.7787pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -203,7 +203,7 @@ mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MahniShayganfar-AAAI16-SCS.pdf (4 pages, 91431 bytes).
+Output written on MahniShayganfar-AAAI16-SCS.pdf (4 pages, 91226 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

@@ -4,45 +4,51 @@ The top-level auxiliary file: MahniShayganfar-AAAI16-SCS.aux
 The style file: aaai.bst
 Database file #1: mshayganfar.bib.bib
 Warning--I didn't find a database entry for "kruger:peer-collaboration"
-You've used 12 entries,
+Name 2 in "Roddy Cowie and Naomi Sussman, and Aaron Ben-Ze'ev" has a comma at the end for entry cowie:concepts-definitions
+while executing---line 1139 of file aaai.bst
+Name 2 in "Roddy Cowie and Naomi Sussman, and Aaron Ben-Ze'ev" has a comma at the end for entry cowie:concepts-definitions
+while executing---line 1139 of file aaai.bst
+Name 2 in "Roddy Cowie and Naomi Sussman, and Aaron Ben-Ze'ev" has a comma at the end for entry cowie:concepts-definitions
+while executing---line 1187 of file aaai.bst
+You've used 18 entries,
             2568 wiz_defined-function locations,
-            647 strings with 6652 characters,
-and the built_in function-call counts, 4445 in all, are:
-= -- 463
-> -- 163
-< -- 1
-+ -- 55
-- -- 51
-* -- 342
-:= -- 740
-add.period$ -- 63
-call.type$ -- 12
-change.case$ -- 68
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 184
-empty$ -- 342
-format.name$ -- 72
-if$ -- 914
+            682 strings with 7579 characters,
+and the built_in function-call counts, 6861 in all, are:
+= -- 723
+> -- 244
+< -- 3
++ -- 82
+- -- 77
+* -- 530
+:= -- 1127
+add.period$ -- 96
+call.type$ -- 18
+change.case$ -- 104
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 285
+empty$ -- 528
+format.name$ -- 108
+if$ -- 1430
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 76
-num.names$ -- 38
-pop$ -- 70
+missing$ -- 23
+newline$ -- 114
+num.names$ -- 56
+pop$ -- 99
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 127
 quote$ -- 0
-skip$ -- 133
+skip$ -- 211
 stack$ -- 0
-substring$ -- 201
-swap$ -- 33
-text.length$ -- 1
+substring$ -- 322
+swap$ -- 57
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
+type$ -- 124
 warning$ -- 0
-while$ -- 36
-width$ -- 15
-write$ -- 166
-(There was 1 warning)
+while$ -- 56
+width$ -- 22
+write$ -- 254
+(There were 3 error messages)

@@ -27,24 +27,76 @@ Worcester, Massachusetts, 01609\\
 \maketitle
 \begin{abstract}
 \begin{quote}
-\ldots 
+We investigate the mutual influence of affective and collaboration processes in
+a cognitive theory to support the interaction between humans and robots or
+virtual agents. We will develop new algorithms for these processes, as well as a
+new overall computational model for implementing collaborative robots and
+agents. We build primarily on the \textit{cognitive appraisal} theory of
+emotions \cite{gratch:domain-independent} and the \textit{SharedPlans} theory
+\cite{grosz:plans-discourse} of collaboration to investigate the structure,
+fundamental processes and functions of emotions in a collaboration context. As
+part of this work, we also address a deficiency in existing cognitive models by
+accounting for the influence of motivation on collaborative behaviors, such as
+overcoming an impasse. This motivation mechanism uses the results of cognitive
+appraisal to dynamically form new intentions related to the collaboration
+structure.
 \end{quote}
 \end{abstract}
 
-\noindent Introduction
+Intelligence is a set of mental abilities that enables a human to comprehend,
+reason and adapt in the environment, and as a result, act effectively and
+purposefully in that environment. Emotions play a crucial role in humans'
+explanation of intelligent behaviors. Emotions affect not only what people do,
+but also the way they do it \cite{cowie:concepts-definitions}. Ronald De Sousa
+in The Rationality of Emotion \cite{sousa:rationality-emotion} makes a good case
+for the claim that humans are capable of rationality largely because they are
+creatures with emotions. Emotions significantly impact the procedures of action
+generation, execution, control, and interpretation \cite{zhu:emotion-action} in
+different environments. 
+
+Emotions are conceptualized as ongoing processes rooted in dynamic social
+contexts, which can shape both implicit and explicit emotional responses
+\cite{parkinson:emotion-social-interaction}. Emotions are dynamic episode that
+not only makes changes in cognitive states, but also produces a sequence of
+response patterns on body movements, posture, voice and face
+\cite{scherer:expression-appraisal}. Emotions typically occur in response to an
+event, usually a social event, real, remembered, anticipated, or imagined. They
+are associated with distinctive relational meanings
+\cite{parkinson:holds-emotion}. These relations can be with the individual's
+past experience, the individual's surrounding objects and environment, or the
+other individuals with or without mutual beliefs in a dyadic or a group setting.
+Emotions are evaluative and responsive patterns that serve the function of
+providing appraisal about whether the ongoing event is harmful, threatening or
+beneficial for the well-being of an individual \cite{zhu:emotion-action}.
+Consequently, reasoning and emotional processes have an integral and a
+supportive relationship, rather than an antagonistic and a conflicting one.
+
+The idea of having robots or other intelligent agents living in a human
+environment has been a persistent dream from science fiction books to artificial
+intelligence and robotics laboratories. However, there are many challenges in
+achieving collaboration between robots and humans in the same environment. Some
+of these challenges involve physical requirements, some involve cognitive
+requirements, and some involve social requirements. Thus far, there has been an
+emphasis on the design of robots to deal with the physical requirements. Many
+researchers are also working on the cognitive requirements, inspired by a
+diverse set of disciplines. As time passes, there is an increasing recognition
+of the importance of the social requirements, and how cognitive systems can
+involve the influence of the others.
 
 \section{Motivation}
 
-An important aspect of the sociability of robots and agents is their ability to
-collaborate with humans in the same environment. Therefore, it is important to
-understand what makes a collaboration effective. One's cognitive processes and
-the ability to understand the collaborative environment impact the effectiveness
-of a collaboration. Examples of cognitive capabilities that support the
-effectiveness of collaboration include: a) perceiving one's own internal states
-and b) communicating them, c) coordinating personal and group behaviors, d)
-identifying self and mutual interests, e) recognizing the accountability of
-private and shared goals, f) selecting appropriate actions with respect to
-events, and g) engaging others in collaboration.
+Functionnal coexistence is an important aspect of the symbiotic cognitive
+systems in social environments. Collaboration requires coexistence with
+the others and it also describes how a cognitive agent can function i such
+environment. the Therefore, the ability of collaborating with humans in the same
+environment is crucial for agents using such cognitive systems. One's ability to
+understand the collaborative environment impact the effectiveness of a
+collaboration. Examples of cognitive capabilities that support the effectiveness
+of collaboration include: a) perceiving one's own internal states and b)
+communicating them, c) coordinating personal and group behaviors, d) identifying
+self and mutual interests, e) recognizing the accountability of private and
+shared goals, f) selecting appropriate actions with respect to events, and g)
+engaging others in collaboration.
 
 We are investigating the cognitive processes involved in a collaboration in the
 context of a cognitive architecture. There are several well-developed cognitive
@@ -68,6 +120,37 @@ provide a new theory which describes the prominent emotion-regulated goal-driven
 phenomena in a dyadic collaboration.
 
 \section{Affect and Collaboration}
+
+Collaboration is a coordinated activity in which the participants work jointly
+to satisfy a shared goal \cite{grosz:plans-discourse}. There are many important
+unanswered questions about the involvement of an individual's cognitive
+abilities during collaboration. Some of these questions are related to the
+dynamics of collaboration, as well as the underlying mechanisms and processes.
+For instance, a general mechanism has yet to be developed that allows an agent
+to initiate proactive collaborative behaviors when it faces a blocked task.
+There is also a lack of a general mechanism that, in the event of a task
+failure, allows an agent to consider the collaborator's anticipated mental
+states and emotions, while managing its own internal goals and the
+collaboration's shared goal. There are also other questions about the components
+involved in these processes at the cognitive level, such as the processes that
+are involved for evaluative, regulatory or motivative purposes. There has also
+not been enough attention on the processes that are involved to maintain the
+social aspects of a collaboration.
+
+Emotions have a key role in influencing the cognitive processes involved in
+social interaction and collaboration. Emotion processing and decision-making are
+integral aspects of daily life and maintain their prominence during social
+interaction and collaboration. However, researchers' understanding of the
+interaction between emotions and collaborative behaviors is limited. We believe
+that the evaluative role of emotions, as a part of cognitive processes, helps an
+agent to perform appropriate behaviors during a collaboration. To work jointly
+in a coordinated activity, participants (collaborators) act based on their own
+understanding of the world and the anticipated mental states of the counterpart;
+this understanding is reflected in their collaborative behaviors. Emotions are
+pivotal in the collaboration context, since their regulatory and motivational
+roles enhance an individual's autonomy and adaptation as well as his/her
+coordination and communication competencies in a dynamic, uncertain and
+resource-limited environment.
 
 \section{Affective Motivational Collaboration Theory}
 
@@ -119,6 +202,19 @@ state. The self progressively updates this model during the collaboration.
   Theory (arrows indicate primary influences between mechanisms).}
   \label{fig:cpm}
 \end{figure}
+
+\section{Functions of Emotions}
+
+Emotions have a crucial role in communicating one's mental state, motivating
+one's actions, and evaluating and interpreting their internal states and the
+environment. Emotions generally speaking provide a set of intra- and
+interpersonal functions which regulate internal processes and the self's
+relationship to the other during the collaboration. An emotion instance, e.g.,
+\textit{anger}, occurring during collaboration, can lead to different emotion
+functions, e.g., \textit{Alarm Mechanism} and \textit{Action Selection}.
+Emotions have meanings in a social context which can be interpreted by an
+observer. Emotion functions are important because they provide social
+characteristics that the self needs to manifest in its collaborative behavior. 
 
 \section{Collaborative Behaviors in Symbiotic Environments}
 

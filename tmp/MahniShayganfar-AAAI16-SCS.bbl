@@ -16,6 +16,15 @@ Cole, T., and Teboul, B.
   similarity: Developing an adaptive model of close relational functioning.
 \newblock {\em Personal Relationships} 11(2):135--160.
 
+\bibitem[\protect\citeauthoryear{Cowie, Sussman, and
+  Ben-Ze'ev}{2011}]{cowie:concepts-definitions}
+Cowie, R.; Sussman, N.; and Ben-Ze'ev, A.
+\newblock 2011.
+\newblock Emotion: Concepts and definitions.
+\newblock In {\em Emotion-Oriented Systems}, Cognitive Technologies. London,
+  New York: Springer-Verlag Berlin Heidelberg.
+\newblock  9--30.
+
 \bibitem[\protect\citeauthoryear{Dancy}{2013}]{dancy:actR-physiology-affect}
 Dancy, C.~L.
 \newblock 2013.
@@ -73,6 +82,14 @@ Manso, M., and Moffat, J.
   self-synchronization.
 \newblock In {\em ICCRTS}.
 
+\bibitem[\protect\citeauthoryear{Marinetti \bgroup et al\mbox.\egroup
+  }{2011}]{parkinson:emotion-social-interaction}
+Marinetti, C.; Moore, P.; Lucas, P.; and Parkinson, B.
+\newblock 2011.
+\newblock Emotions in social interactions: Unfolding emotional experience.
+\newblock In {\em Emotion-Oriented Systems, Cognitive Technologies},  31--46.
+\newblock Springer Berlin Heidelberg.
+
 \bibitem[\protect\citeauthoryear{{Marinier III}, Laird, and
   Lewis}{2009}]{marinier:behavior-emotion}
 {Marinier III}, R.~P.; Laird, J.~E.; and Lewis, R.~L.
@@ -80,11 +97,37 @@ Manso, M., and Moffat, J.
 \newblock A computational unification of cognitive behavior and emotion.
 \newblock {\em Cognitive System Research} 10(1):48--69.
 
+\bibitem[\protect\citeauthoryear{Parkinson}{2009}]{parkinson:holds-emotion}
+Parkinson, B.
+\newblock 2009.
+\newblock What holds emotions together? meaning and response coordination.
+\newblock {\em Cognitive System Research} 10(1):31--47.
+
+\bibitem[\protect\citeauthoryear{Scherer and
+  Eligring}{2007}]{scherer:expression-appraisal}
+Scherer, K.~R., and Eligring, H.
+\newblock 2007.
+\newblock Are facial expressions of emotion produced by categorical affect
+  programs or dynamically driven by appraisal?
+\newblock {\em Emotion} 7(1):113--130.
+
 \bibitem[\protect\citeauthoryear{Schon}{1987}]{schon:reflection}
 Schon, D.~A.
 \newblock 1987.
 \newblock {\em Educating the Reflective Practitioner: Toward a New Design for
   Teaching and Learning in the Professions}.
 \newblock Wiley.
+
+\bibitem[\protect\citeauthoryear{Sousa}{1990}]{sousa:rationality-emotion}
+Sousa, R.~D.
+\newblock 1990.
+\newblock {\em The Rationality of Emotion}.
+\newblock MIT Press.
+
+\bibitem[\protect\citeauthoryear{Zhu and Thagard}{2002}]{zhu:emotion-action}
+Zhu, J., and Thagard, P.
+\newblock 2002.
+\newblock Emotion and action.
+\newblock {\em Journal of Philosophical Psychology} 15(1):19--36.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.5)  29 OCT 2015 13:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.5)  29 OCT 2015 18:09
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -192,7 +192,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Here is how much of TeX's memory you used:
  3176 strings out of 495028
  57121 string characters out of 6181497
- 131286 words of memory out of 5000000
+ 132286 words of memory out of 5000000
  6370 multiletter control sequences out of 15000+600000
  16325 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -203,7 +203,7 @@ mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MahniShayganfar-AAAI16-SCS.pdf (4 pages, 91226 bytes).
+Output written on MahniShayganfar-AAAI16-SCS.pdf (4 pages, 91183 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.5)  28 OCT 2015 23:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.5)  29 OCT 2015 00:07
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -178,27 +178,24 @@ File: figure/theory-general-croped.pdf Graphic file (type pdf)
 
 <use figure/theory-general-croped.pdf>
 Package pdftex.def Info: figure/theory-general-croped.pdf used on input line 20
-0.
+2.
 (pdftex.def)             Requested size: 239.79135pt x 163.7787pt.
  [2]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 235.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 237.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 245.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
 
 
 LaTeX Warning: Reference `emotion-functions' on page 3 undefined on input line 
-275.
-
-
-LaTeX Warning: Citation `kruger:peer-collaboration' on page 3 undefined on inpu
-t line 295.
+277.
 
 [3 <./figure/theory-general-croped.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-(./MahniShayganfar-AAAI16-SCS.bbl) [5] (./MahniShayganfar-AAAI16-SCS.aux)
+LaTeX Warning: Citation `kruger:peer-collaboration' on page 4 undefined on inpu
+t line 297.
+
+[4] (./MahniShayganfar-AAAI16-SCS.bbl) [5] (./MahniShayganfar-AAAI16-SCS.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -206,7 +203,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  3185 strings out of 495028
  57259 string characters out of 6181497
- 132286 words of memory out of 5000000
+ 129286 words of memory out of 5000000
  6378 multiletter control sequences out of 15000+600000
  18458 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -217,7 +214,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MahniShayganfar-AAAI16-SCS.pdf (5 pages, 106653 bytes).
+Output written on MahniShayganfar-AAAI16-SCS.pdf (5 pages, 106731 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream

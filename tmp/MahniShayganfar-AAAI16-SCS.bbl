@@ -15,12 +15,27 @@ Dancy, C.~L.
 \newblock {ACT-R}$\phi$: A cognitive architecture with physiology and affect.
 \newblock {\em Biologically Inspired Cognitive Architectures} 6:40--45.
 
+\bibitem[\protect\citeauthoryear{de Melo \bgroup et al\mbox.\egroup
+  }{2012}]{gratch:reverse-appraisal}
+de~Melo, C.~M.; Gratch, J.; Carnevale, P.; and Read, S.~J.
+\newblock 2012.
+\newblock Reverse appraisal: The importance of appraisals for the effect of
+  emotion displays on people's decision-making in social dilemma.
+\newblock In {\em Proceedings of the 34th Annual Meeting of the Cognitive
+  Science Society ({CogSci})}.
+
 \bibitem[\protect\citeauthoryear{Gratch and
   Marsella}{2004}]{gratch:domain-independent}
 Gratch, J., and Marsella, S.~C.
 \newblock 2004.
 \newblock A domain-independent framework for modeling emotion.
 \newblock {\em Cognitive Systems Research} 5(4):269--306.
+
+\bibitem[\protect\citeauthoryear{Grosz and Kraus}{1998}]{grosz:shared-plans}
+Grosz, B., and Kraus, S.
+\newblock 1998.
+\newblock The evolution of shared plans.
+\newblock In {\em Foundations and Theories of Rational Agency},  227--262.
 
 \bibitem[\protect\citeauthoryear{Grosz and
   Sidner}{1990}]{grosz:plans-discourse}
@@ -30,6 +45,13 @@ Grosz, B.~J., and Sidner, C.~L.
 \newblock In Cohen, P.~R.; Morgan, J.; and Pollack, M.~E., eds., {\em
   Intentions in Communication}. Cambridge, MA: MIT Press.
 \newblock  417--444.
+
+\bibitem[\protect\citeauthoryear{Hemion}{2013}]{hemion:cognition-building-blocks}
+Hemion, N.
+\newblock 2013.
+\newblock {\em {Building Blocks for Cognitive Robots: Embodied Simulation and
+  Schemata in a Cognitive Architecture}}.
+\newblock Ph.D. Dissertation, Bielefeld University.
 
 \bibitem[\protect\citeauthoryear{Hess and Thibault}{2009}]{hess:darwin-emotion}
 Hess, U., and Thibault, P.
@@ -88,6 +110,13 @@ Scherer, K.~R., and Eligring, H.
 \newblock Are facial expressions of emotion produced by categorical affect
   programs or dynamically driven by appraisal?
 \newblock {\em Emotion} 7(1):113--130.
+
+\bibitem[\protect\citeauthoryear{Scheutz, Harris, and
+  Schermerhorn}{2013}]{scheutz:integration-cognition}
+Scheutz, M.; Harris, J.; and Schermerhorn, P.
+\newblock 2013.
+\newblock Systematic integration of cognitive and robotic architectures.
+\newblock {\em Advances in Cognitive Systems} 2:277--296.
 
 \bibitem[\protect\citeauthoryear{Sousa}{1990}]{sousa:rationality-emotion}
 Sousa, R.~D.

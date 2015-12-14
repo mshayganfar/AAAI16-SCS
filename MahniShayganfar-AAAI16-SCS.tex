@@ -70,9 +70,10 @@ of these challenges involve physical requirements, some involve cognitive
 requirements, and some involve social requirements. Thus far, there has been an
 emphasis on the design of robots to deal with the physical requirements. Many
 researchers are also working on the cognitive requirements, inspired by a
-diverse set of disciplines. As time passes, there is an increasing recognition
-of the importance of the social requirements, and how cognitive systems can
-include the influence of others.
+diverse set of disciplines
+\cite{laird:soar,scheutz:integration-cognition,hemion:cognition-building-blocks}.
+As time passes, there is an increasing recognition of the importance of the social
+requirements, and how cognitive systems can include the influence of others.
 
 \subsection{Social Functions of Emotions}
 
@@ -193,37 +194,41 @@ self's (robot's) beliefs, intentions, motives, goals and emotion instances as
 well as the anticipated Mental States of the other (human). \textit{Beliefs} are
 a crucial part of the Mental States. Beliefs can be generated based on whether
 they are shared or not between the collaborators. The SharedPlans
-\cite{grosz:plans-discourse} theory is the foundation of this view on beliefs in
-which for any given proposition the agent may have: a) private beliefs (the
-agent believes the human does not know these), b) the inferred beliefs of the
-human (the agent believes the human collaborator has these beliefs), and c)
-mutual beliefs (the agent believes both the self and the human have these same
-beliefs and both of them believe that). Beliefs also can be generated based on
-who or what they are about, i.e., beliefs can be about the self, the other, or
-they can be about the environment. \textit{Intentions} are mental constructs
-directed at future actions. They play an essential role in taking actions
-according to the collaboration plan, and behavior selection in the Coping
-mechanism. \textit{Motives} are mental constructs which can initiate, direct and
-maintain goal-directed behaviors. They are created by the emotion-regulated
-Motivation mechanism. Motives can cause the formation of a new intention for the
-agent according to: a) its own emotional states (how the agent feels about
-something), b) its own private goal (how an action helps the agent to make
-progress), c) the collaboration goal (how an action helps to achieve the shared
-goal), and d) other's anticipated beliefs (how an action helps the other).
-\textit{Goals} help the agent to create and update its collaboration plan
-according to the current private and shared goal content and structure. Goals
-direct the formation of intentions to take appropriate corresponding actions
-during collaboration. Goals also drive the Motivation mechanism to generate
-required motive(s) in uncertain or ambiguous situations, e.g., to minimize the
-risk of impasse or to reprioritize goals. \textit{Emotions} in Mental States are
-emotion instances that are elicited by the Appraisal mechanism.
+\cite{grosz:shared-plans,grosz:plans-discourse} theory is the foundation of this
+view on beliefs in which for any given proposition the agent may have: a)
+private beliefs (the agent believes the human does not know these), b) the
+inferred beliefs of the human (the agent believes the human collaborator has
+these beliefs), and c) mutual beliefs (the agent believes both the self and the
+human have these same beliefs and both of them believe that). Beliefs also can
+be generated based on who or what they are about, i.e., beliefs can be about the
+self, the other, or they can be about the environment. \textit{Intentions} are
+mental constructs directed at future actions. They play an essential role in
+taking actions according to the collaboration plan, and behavior selection in
+the Coping mechanism. \textit{Goals} help the agent to create and update its
+collaboration plan according to the current private and shared goal content and
+structure. Goals direct the formation of intentions to take appropriate
+corresponding actions during collaboration. Goals also drive the Motivation
+mechanism to generate required motive(s) in uncertain or ambiguous situations,
+e.g., to minimize the risk of impasse or to reprioritize goals. Therefore,
+\textit{motives} as an additional mental construct are required. Motives are
+mental constructs which can initiate, direct and maintain goal-directed
+behaviors. They are created by the emotion-regulated Motivation mechanism.
+Motives can cause the formation of a new intention for the agent according to:
+a) its own emotional states (how the agent feels about something), b) its own
+private goal (how an action helps the agent to make progress), c) the
+collaboration goal (how an action helps to achieve the shared goal), and d)
+other's anticipated beliefs (how an action helps the other). \textit{Emotions}
+in Mental States are emotion instances that are elicited by the Appraisal
+mechanism.
 
+\vspace*{-2mm}
 \begin{figure}[tbh]
   \centering
   \includegraphics[width=0.474\textwidth]{figure/theory-general-croped.pdf}
   \caption{Computational framework based on Affective Motivational Collaboration
   Theory (arrows indicate primary influences between mechanisms).}
   \label{fig:cpm}
+  \vspace*{-2mm}
 \end{figure}
 
 The \textit{Collaboration} mechanism maintains constraints on actions, including
@@ -243,19 +248,30 @@ processes to update and monitor the shared plan.
 \textit{Appraisal} is a subjective evaluation mechanism based on individual
 processes each of which computes the value of the appraisal variables used in
 our computational model. The Appraisal mechanism is responsible for evaluating
-changes in the self's Mental States, the anticipated Mental States of the other,
-and the state of the collaboration environment. The Collaboration mechanism
-needs the evaluative assistance of the Appraisal mechanism for various reasons.
-The course of a collaboration is based on a full or a partial plan which needs
-to be updated as time passes and collaborators achieve, fail at or abandon a
-task assigned to them. The failure of a task should not destroy the entire
-collaboration. Appraising the environment and the current events helps the agent
-to update the collaboration plan and avoid further critical failures during
-collaboration. Appraisal also helps the agent to have a better understanding of
-the human's behavior by making inferences based on appraisal variables.
-Furthermore, in order to collaborate successfully, a collaborator cannot simply
-use the plan and reach to the shared goal; there should be an adaptation
-mechanism not only for updating the plan but also the underlying Mental States.
+changes in the self's Mental States, and the state of the collaboration
+environment. The Collaboration mechanism needs the evaluative assistance of the
+Appraisal mechanism for various reasons. The course of a collaboration is based
+on a full or a partial plan which needs to be updated as time passes and
+collaborators achieve, fail at or abandon a task assigned to them. The failure
+of a task should not destroy the entire collaboration. Appraising the
+environment and the current events helps the agent to update the collaboration
+plan and avoid further critical failures during collaboration. 
+
+Appraisal and collaboration structure have reciprocal influences on each
+other. We use collaboration structure to compute appraisal variables, i.e.
+relevance, desirability, expectedness, and controllability, for every event.
+Mutually, we use appraisals to regulate the goal management process during
+collaboration. By using reverse appraisal \cite{gratch:reverse-appraisal} of the
+human collaborator's emotion, and its own appraisal of individual goals, the
+robot is able to successfully shift the focus of attention from the blocked goal
+(causing to elicit negative emotions, e.g., worry) to an appropriate one to
+maintain the collaboration. Goal management is one of the crucial reciprocal
+influences of appraisal on a collaboration structure. We also investigate how
+appraisal impacts forming new motives as well as the action selection process.
+Therefore, in order to collaborate successfully, a collaborative robot should
+possess an adaptation mechanism to update the shared plan, and adopt
+affect-regulated goal-driven motives while being able to choose appropriate
+actions.
 
 The \textit{Coping} mechanism is responsible for interpreting ongoing changes
 in the Mental States and adopting the appropriate behavior with respect to these
@@ -263,7 +279,7 @@ changes. The Coping mechanism provides the self with different coping strategies
 associated with changes in the self's mental states with respect to the state of
 the collaboration.
 
-The \textit{Motivation} mechanism closely work with the Appraisal mechanism. The
+The \textit{Motivation} mechanism coordinates with the Appraisal mechanism. The
 purpose of this component is to generate new motives. These motives are
 generated based on what the agent believes about the environment including self
 and the other collaborator and the corresponding appraisals. The agent uses
@@ -311,6 +327,12 @@ processes, such as appraisal and coping, with collaboration processes, such as
 planning, in a single unified framework. Affective Motivational Collaboration
 Theory provides emotion-regulated goal-driven mechanisms by which a robot will
 be able to show collaborative behaviors.
+
+\section*{Acknowledgments}
+{\fontsize{8.2}{9}\selectfont This work is supported by the National Science
+Foundation under award IIS-1012083. Any opinions, findings, and conclusions
+expressed in this material are those of the authors and do not necessarily
+reflect the views of the National Science Foundation.}
 
 \bibliography{mshayganfar.bib}
 \bibliographystyle{aaai}

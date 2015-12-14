@@ -9,45 +9,45 @@ Name 2 in "Roddy Cowie and Naomi Sussman, and Aaron Ben-Ze'ev" has a comma at th
 while executing---line 1139 of file aaai.bst
 Name 2 in "Roddy Cowie and Naomi Sussman, and Aaron Ben-Ze'ev" has a comma at the end for entry cowie:concepts-definitions
 while executing---line 1187 of file aaai.bst
-You've used 16 entries,
+You've used 20 entries,
             2568 wiz_defined-function locations,
-            672 strings with 6859 characters,
-and the built_in function-call counts, 5963 in all, are:
-= -- 639
-> -- 181
-< -- 2
-+ -- 61
-- -- 55
-* -- 471
-:= -- 980
-add.period$ -- 85
-call.type$ -- 16
-change.case$ -- 86
-chr.to.int$ -- 16
-cite$ -- 16
-duplicate$ -- 244
-empty$ -- 466
-format.name$ -- 81
-if$ -- 1232
+            690 strings with 7642 characters,
+and the built_in function-call counts, 7548 in all, are:
+= -- 811
+> -- 242
+< -- 3
++ -- 82
+- -- 75
+* -- 589
+:= -- 1236
+add.period$ -- 105
+call.type$ -- 20
+change.case$ -- 111
+chr.to.int$ -- 20
+cite$ -- 20
+duplicate$ -- 311
+empty$ -- 579
+format.name$ -- 108
+if$ -- 1564
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 20
-newline$ -- 101
-num.names$ -- 50
-pop$ -- 68
+missing$ -- 23
+newline$ -- 125
+num.names$ -- 62
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 136
 quote$ -- 0
-skip$ -- 186
+skip$ -- 238
 stack$ -- 0
-substring$ -- 339
-swap$ -- 46
-text.length$ -- 2
+substring$ -- 413
+swap$ -- 63
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 144
 warning$ -- 0
-while$ -- 53
-width$ -- 20
-write$ -- 227
+while$ -- 65
+width$ -- 24
+write$ -- 282
 (There were 3 error messages)

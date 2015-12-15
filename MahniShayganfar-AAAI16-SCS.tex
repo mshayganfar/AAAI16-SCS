@@ -49,7 +49,7 @@ but also the way they do it \cite{cowie:concepts-definitions}. Sousa in The
 Rationality of Emotion (\citeyear{sousa:rationality-emotion}) makes a case for
 claiming that humans are capable of rationality largely because they are
 creatures with emotions. Emotions significantly impact different procedures of
-goal management, and action generation, execution, control, and interpretation
+goal management and action generation, execution, control, and interpretation
 \cite{zhu:emotion-action}. Emotions are dynamic episodes that not only make
 changes in cognitive states, but also produce a sequence of response patterns on
 one's verbal and nonverbal behaviors \cite{scherer:expression-appraisal}.
@@ -241,12 +241,12 @@ mechanism.
 
 \subsection{Mechanisms}
 
-We provide some examples through out the desciption of each mechanism. The
-example scenario is part of a much larger interaction we are implementing to
-test our theory. The examples show the involvement of different mechanisms
-during the collaboration between a robot and an astronaut. Their mission is to
-finish installing a few solar panels together. However, the astronaut encounters
-a measurement tool problem, and expresses her worry about their mission.
+We provide examples throughout the descriptions of the mechanisms. The example
+scenario is part of a much larger interaction we are implementing to test our
+theory. The examples show the involvement of different mechanisms during the
+collaboration between a robot and an astronaut. Their mission is to finish
+installing a few solar panels together. However, the astronaut encounters a
+measurement tool problem, and expresses her worry about their mission.
 
 The \textit{Collaboration} mechanism maintains constraints on actions, including
 task states and the ordering of tasks. The Collaboration mechanism constructs a
@@ -258,14 +258,14 @@ and the \textit{postconditions} specifying whether a just-completed task was
 successful (which can be used as an indication of an impasse or failure). For
 example, malfunction in the astronaut's measurement tool causes failure of the
 postcondition of the current goal indicating an impasse in collaboration.
-Collaboration mechanism also keeps track of the focus of attention, which
+The Collaboration mechanism also keeps track of the focus of attention, which
 determines the salient objects, properties and relations at each point of the
-collaboration. Moreover, Collaboration mechanism has the ability to shift the
-focus of attention during the collaboration. The Collaboration mechanism also
-provides processes to update and monitor the shared plan.
+collaboration. Moreover, the Collaboration mechanism has the ability to shift
+the focus of attention during the collaboration. The Collaboration mechanism
+also provides processes to update and monitor the shared plan.
   
 \textit{Appraisal} is a subjective evaluation mechanism based on individual
-processes each of which computes the value of the appraisal variables used in
+processes, each of which computes the value of the appraisal variables used in
 our computational model. The Appraisal mechanism is responsible for evaluating
 changes in the self's Mental States, and the state of the collaboration
 environment. The Collaboration mechanism needs the evaluative assistance of the
@@ -276,33 +276,33 @@ of a task should not destroy the entire collaboration. Appraising the
 environment and the current events helps the agent to update the collaboration
 plan and avoid further critical failures during collaboration. 
 
-Appraisal and collaboration structure have reciprocal influences on each
-other. We use collaboration structure to compute appraisal variables, i.e.
+The Appraisal and collaboration structures have reciprocal influences on each
+other. We use the collaboration structure to compute appraisal variables, i.e.
 relevance, desirability, expectedness, and controllability, for every event
 \cite{shayganfar:appraisal}. For example, the impasse occurring for the
-current goal will be appraised as a \textit{relevant, undesirable, unexpected}
-and \textit{controllable} one by the robot. Mutually, we use appraisals to
+current goal will be appraised as \textit{relevant, undesirable, unexpected}
+and \textit{controllable} by the robot. Reciprocally, we use appraisals to
 regulate the goal management process during collaboration
 \cite{shayganfar:goal-management}. By using reverse appraisal
-\cite{gratch:reverse-appraisal} of the human collaborator's emotion, and its own
-appraisal of individual goals, the robot is able to successfully shift the focus
-of attention from the blocked goal (causing to elicit negative emotions, e.g.,
-worry) to an appropriate one to maintain the collaboration. Goal management is
-one of the crucial reciprocal influences of appraisal on a collaboration
-structure. We also investigate how appraisal impacts forming new motives as well
-as the action selection process. Therefore, in order to collaborate
-successfully, a collaborative robot should possess an adaptation mechanism to
-update the shared plan, and adopt affect-regulated goal-driven motives while
-being able to choose appropriate actions.
+\cite{gratch:reverse-appraisal} of the human's emotion, and its own appraisal of
+individual goals, the robot is able to successfully shift the focus of attention
+from the blocked goal (causing elicitation of negative emotions, e.g., worry) to
+an appropriate one to maintain the collaboration. Goal management is one of the
+crucial reciprocal influences of appraisal on a collaboration structure. We also
+investigate how appraisal impacts forming new motives as well as the action
+selection process. Therefore, in order to collaborate successfully, a
+collaborative robot should possess an adaptation mechanism to update the shared
+plan, and adopt affect-regulated goal-driven motives while being able to choose
+appropriate actions.
 
 The \textit{Coping} mechanism is responsible for interpreting ongoing changes
 in the Mental States and adopting the appropriate behavior with respect to these
 changes. For example, the robot first acknowledges the astronaut's perceived
-emotion (i.e., worry) to mitigate her negative emotinal state, then chooses the
-best action based on the most appropriate goal influenced by the appraisal
-mechanism to overcome the impasse. The Coping mechanism provides the self with
-different coping strategies associated with changes in the self's mental states
-with respect to the state of the collaboration.
+emotion (i.e., worry) to mitigate her negative emotional state, then chooses the
+best action based on the most appropriate goal to overcome the impasse. The
+Coping mechanism provides the self with different coping strategies associated
+with changes in the self's mental states with respect to the state of the
+collaboration.
 
 The \textit{Motivation} mechanism coordinates with the Appraisal mechanism. The
 purpose of this component is to generate new motives. These motives are
@@ -314,8 +314,8 @@ the success of task performances. The Motivation mechanism operates whenever the
 self a) requires and intends to take a new action, b) requires a new motive to
 overcome an internal impasse in an ongoing task, or c) wants to provide an
 external motive to the other based on other's model when the other faces a
-problem in a task. For example, the robot's motive before the asronaut's task
-failure was ``hold-the-panel'', and the robot's new motive is to
+problem in a task. For example, the robot's motive before the astronaut's task
+failure was ``hold-the-panel'', and the robot's new motive is
 ``acknowledge-astronaut's-emotion'' after perceiving astronaut's emotion.
 
 The agent uses the \textit{Theory of Mind} mechanism to infer and attribute
@@ -323,13 +323,13 @@ beliefs, intentions, motives and goals to its collaborator based on the user
 model it creates and maintains during the course of the collaboration. In
 other words, the Theory of Mind mechanism is the mechanism that infers a model
 of the other's anticipated mental state. For example, if the robot perceives
-astronaut's worry, the robot will infer the event as \textit{undesirable} from
-astronaut's perspective. The self progressively updates this model during the
-collaboration.
+the astronaut's worry, the robot will infer the event as \textit{undesirable}
+from the astronaut's perspective. The self progressively updates this model
+during the collaboration.
 
-\vspace*{-3mm}
+\vspace*{-6mm}
 \section{Conclusion}
-
+\vspace*{-1mm}
 The capability of collaboration is crucial in symbiotic cognitive systems. The
 nature of coexistence requires the ability to work together in the same
 environment. To successfully work together symbiotic cognitive systems need to

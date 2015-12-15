@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  14 DEC 2015 18:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  14 DEC 2015 23:25
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -186,7 +186,7 @@ Package pdftex.def Info: figure/theory-general-croped.pdf used on input line 23
 ] (./MahniShayganfar-AAAI16-SCS.aux) ) 
 Here is how much of TeX's memory you used:
  3185 strings out of 493304
- 57314 string characters out of 6139871
+ 57314 string characters out of 6139870
  135575 words of memory out of 5000000
  6627 multiletter control sequences out of 15000+600000
  18458 words of font info for 34 fonts, out of 8000000 for 9000
@@ -198,7 +198,7 @@ dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MahniShayganfar-AAAI16-SCS.pdf (4 pages, 94823 bytes).
+Output written on MahniShayganfar-AAAI16-SCS.pdf (4 pages, 94757 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
